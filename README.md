@@ -1,92 +1,124 @@
-# AppointmentBookingSystem
-An Online Appointment Booking System for Retail Chain Clinics with both the User as well as the Admin Side.
+# Appointment Booking System
 
-**Purpose**  
+## Overview
 
-In traditional appointment system patients has to come to the hospital and queue at the appointment window to make the appointment. But they usually end up waiting for very long periods of time. The patient can, however decide to schedule an appointment, but this option does not usually work well for all parties involved. Parties involved includes: the patient, the medical personnel and the hospital. Thus, this project focuses on making a system which helps customers to book appointments online along with other useful features. 
+The **Appointment Booking System** is a web-based platform designed for **retail chain clinics** to simplify and modernize the appointment scheduling process. It allows patients to book, view, and manage appointments online while enabling clinic managers and administrators to efficiently control doctors, clinics, and appointment workflows through dedicated dashboards.
 
-**Product Scope** 
+This system eliminates long queues and manual scheduling by providing a **centralized, user-friendly online solution** for patients, medical staff, and clinic administrators.
 
-Online appointment scheduling system is a system through which a user or simply, a patient can access the website of the doctor, and through the online software, the patient can easily make their appointments. Manager of the clinic can update the appointment status of the patients making it more informative. 
+## Features
 
-**Overall Description:** 
+### Patient Features
 
-**Product Perspective** 
+* User registration and secure login
+* Book appointments online
+* Cancel existing appointments
+* View appointment status
+* Check doctor availability
+* Search clinics and doctors
 
-There is several online appointment scheduling tools in the marketplace, some of which are feature-loaded, easy to setup and cheap. For doctors, online appointment scheduling brings a lot of value add services and benefits, like engaging the patient, making the patient feel appreciated, and being able to store patients’ data securely for future reference. But the most wonderful and useful advantage is that online appointment scheduling is amazingly low cost. 
+### Manager Features
 
-**Product Functions** 
+* View all appointments for assigned clinics
+* Update appointment statuses
+* Monitor patient bookings
 
-Online appointment system with the key features listed below:-  
- 
-**For patients:** 
+### Admin Features
 
--Register as an patient account 
+* Add and remove doctors, clinics, and managers
+* View all registered doctors, clinics, and managers
+* Assign doctors to clinics
+* Assign managers to clinics
 
--Booking an appointment 
+## Technologies Used
 
--Cancelling an appointment 
+* **Frontend:** HTML5, CSS3, JavaScript, jQuery
+* **Backend:** PHP
+* **Database:** MySQL
+* **Asynchronous Communication:** AJAX
+* **Version Control:** Git & GitHub
 
--See their booking status 
+## System Requirements
 
--See doctor availability 
+* PHP server (XAMPP / WAMP)
+* MySQL Database
+* Web browser with HTML5 support
+  *(Google Chrome recommended)*
 
--Search clinic and doctor 
+## Installation & Setup
 
-**For Manager:** 
+1. Clone the repository:
 
--Update status of appointments 
+   ```bash
+   git clone https://github.com/yourusername/AppointmentBookingSystem.git
+   ```
+2. Move the project folder to your XAMPP/WAMP `htdocs` directory.
+3. Import the database:
 
--See appointment list 
+   * Open **phpMyAdmin**
+   * Import the `wt_database.sql` file
+   * Default credentials:
 
-**For Admin:** 
+     * Username: `root`
+     * Password: *(empty)*
+4. Configure database connection:
 
--Add doctor/clinic/manager in database 
+   * Update credentials in `dbconfig.php` if needed.
+5. Start Apache and MySQL services.
+6. Open the application in your browser:
 
--Delete doctor/clinic/manager from database 
+   ```text
+   http://localhost/AppointmentBookingSystem/cover.php
+   ```
 
--Show all doctors/clinic/manager 
+## Usage
 
--Assign doctor to a clinic 
+* Patients can register and book appointments directly from the home page.
+* Admin and Manager logins are available on the same login page.
+* Logout redirects users to the main landing page.
 
--Assign Manager to a clinic 
- 
-**Technologies used:** 
+### Test Login Credentials
 
--HTML 5 
+| Role    | Username | Password |
+| ------- | -------- | -------- |
+| Admin   | admin    | admin    |
+| Manager | manager  | manager  |
+| Patient | user     | user     |
 
--CSS3 
+## Contributing
 
--PHP 
+Contributions are welcome to improve this system.
 
--JavaScript 
+1. Fork the repository
+2. Create a new branch:
 
--AJAX 
+   ```bash
+   git checkout -b feature-branch
+   ```
+3. Commit your changes:
 
--SQL 
+   ```bash
+   git commit -m "Add new feature"
+   ```
+4. Push to GitHub:
 
--jQuery 
+   ```bash
+   git push origin feature-branch
+   ```
+5. Open a pull request
 
-**Software Requirement:** 
+## License
 
--Php server like (XAMPP, WAMP) etc. 
+This project is released under the **MIT License**.
+See the LICENSE file for details.
 
--MySQL for database 
+## Contact
 
--Web Browser supporting HTML5 : Google Chrome(recommended) / Firefox  
+For feedback, suggestions, or collaboration:
 
-**Step-wise Instructions:**
+* **Email:** [malithhanchapola.dev@gmail.com](mailto:malithhanchapola.dev@gmail.com)
+* **GitHub:** [https://github.com/yourusername](https://github.com/yourusername)
 
-1. Open the wt_database.sql file given in the zip folder. 
 
-2. Import it to the wamp/xampp folder  (Note: Username for phpmyadmin is ‘root’; password is ‘’) 
 
-3.  The opening file for the website is the cover.php file. 
-
-4. Admin login and manager login can be done through the same page. Login credentials: User Username Password Admin admin admin Patient user user Manager manager manager 
-
-5. User sign up option is also available at the main page i.e. cover.php 
-
-6. Log out will directly redirect the user to the main page. 
-
-7. dbconfig.php contains the data for the connection of the localhost to the database of phpmyadmin. Login credentials for phpmyadmin can be restructured there as well. 
+Just tell me 💪
