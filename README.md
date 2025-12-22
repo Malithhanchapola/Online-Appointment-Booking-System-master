@@ -116,9 +116,5 @@ See the LICENSE file for details.
 
 For feedback, suggestions, or collaboration:
 
-* **Email:** [malithhanchapola.dev@gmail.com](mailto:malithhanchapola.dev@gmail.com)
-* **GitHub:** [https://github.com/yourusername](https://github.com/yourusername)
-
-
-
-Just tell me 💪
+* **Email:** malithhanchapola1@gmail.com
+* **GitHub:** https://github.com/Malithhanchapola
