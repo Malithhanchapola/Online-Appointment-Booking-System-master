@@ -107,11 +107,6 @@ Contributions are welcome to improve this system.
    ```
 5. Open a pull request
 
-## License
-
-This project is released under the **MIT License**.
-See the LICENSE file for details.
-
 ## Contact
 
 For feedback, suggestions, or collaboration:
