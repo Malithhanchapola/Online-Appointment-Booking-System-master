@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **Appointment Booking System** is a web-based platform designed for **retail chain clinics** to simplify and modernize the appointment scheduling process. It allows patients to book, view, and manage appointments online while enabling clinic managers and administrators to efficiently control doctors, clinics, and appointment workflows through dedicated dashboards.
+The **Appointment Booking System** is  web-based platform designed for **retail chain clinics** to simplify and modernize the appointment scheduling process. It allows patients to book, view, and manage appointments online while enabling clinic managers and administrators to efficiently control doctors, clinics, and appointment workflows through dedicated dashboards.
 
 This system eliminates long queues and manual scheduling by providing a **centralized, user-friendly online solution** for patients, medical staff, and clinic administrators.
 
